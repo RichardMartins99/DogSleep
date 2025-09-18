@@ -27,3 +27,11 @@ const zInterval = setInterval(createZ, 500);
 window.addEventListener('beforeunload', () => {
     clearInterval(zInterval);
 });
+
+// Hamburger menu
+const hamburger = document.querySelector('.hamburger');
+const navLinks = document.querySelector('.nav-links');
+
+hamburger.addEventListener('click', () => {
+    navLinks.classList.toggle('nav-active');
+});
