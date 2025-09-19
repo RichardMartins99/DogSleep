@@ -1,4 +1,4 @@
-document.addEventListener('DOMContentLoaded, () => {
+document.addEventListener('DOMContentLoaded', () => {
     // Parallax effect
     const hero = document.querySelector('.hero');
     
