@@ -1,4 +1,3 @@
-document.addEventListener('DOMContentLoaded', () => {
     // Parallax effect
     const hero = document.querySelector('.hero');
     
@@ -36,4 +35,4 @@ document.addEventListener('DOMContentLoaded', () => {
     hamburger.addEventListener('click', () => {
         navLinks.classList.toggle('nav-active');
     });
-})
+
