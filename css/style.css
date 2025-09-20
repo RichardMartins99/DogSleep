@@ -17,6 +17,8 @@ body {
 header {
     background-color: #162447;
     padding: 1rem 0;
+    position: relative;
+    z-index: 10;
 }
 
 nav {
